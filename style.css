@@ -1,0 +1,83 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.theme-toggle{
+    background-color: black;
+    cursor:pointer ;
+   font-style: italic;
+    font-weight:bold ;
+    border: 3px solid rebeccapurple;
+    border-radius: 10px;
+}
+
+.weatherform{
+    margin: 25px;
+}
+.cityinput{
+    font-style: italic;
+    font-weight:bold ;
+    border: 3px solid rebeccapurple;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.submitbutton{
+
+    font-style: italic;
+    font-weight:bold ;
+    border: 3px solid rebeccapurple;
+    border-radius: 10px;
+    background-color: rgb(41, 20, 20);
+    color:white ;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 20px;
+}
+
+.submitbutton:hover{
+background-color: rgb(68, 89, 146);
+}
+
+.box{
+    background: linear-gradient(180deg, hsl(170, 100%, 50%, 0.822) ,hsl(39, 100%, 60%));
+    padding: 40px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tempDisplay{
+    font-weight: bold;
+    font-size:2rem ;
+    
+}
+
+.descDisplay{
+    font-style: italic;
+    font-size: 2rem;
+}
+.weatherEmoji{
+    margin: 0;
+    font-size: 6rem;
+    border-bottom: none;
+}
+
+.errorDisplay{
+    font-weight:bold ;
+    font-style: italic;
+    font-size:1.5rem ;
+}
+
+
+
+
+
